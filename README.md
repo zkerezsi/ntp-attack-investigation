@@ -123,4 +123,4 @@ ghj@ubuntu ~> ntpq -p
 
 I would like to ask the IT community of the world to help me find out what this is exactly and what I should do.
 
-> Also, I am willing to go to court with this and go through everything that the community needs. I might have done bad things in my life but I am willing to face what I have to. What we can we together might be much more than what I might loose and I might get a chance for fair treatment finally in my life.
+> Also, I am willing to go to court with this and go through everything that the community needs. I might have done questionable things in my life but I am willing to face what I have to. What we can do together might be much more than what I might loose and I might get a chance for fair treatment finally in my life.
