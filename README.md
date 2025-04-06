@@ -3,7 +3,10 @@
 I think I discovered some kind of design flaw in the way Network Time Protocol is working which is currently actively expoited on my computer and it might enable third parties to read all TLS encrypted traffic that my computer is sending so I created this public repository to document these phenomena. Please feel free to fork this or contribute in any way to further this cause.
 
 I received my diploma a few months ago at Budapest Unversity of Technology and Economics as a Computer Operational Engineer (BPROF), I was an intern at Cisco yet I am struggling to find a new job.
-I think I am good at remembering specific things, and I remember that on one of the classes where we solved practical excercises the guy who teached us told at some point, that the next excercise which was about setting up NTP on a linux machine should be solved in such a way that they described it in __the email__. I also remember, that I said it out loud that "I did not receive any email about this" and of course I was unable to solve that problem.
+
+I think I am good at remembering specific things, and I remember that on one of the classes where we solved practical excercises the guy who teached us told at some point, that the next excercise which was about setting up NTP on a linux machine should be solved in a way they described it in __the email__.
+
+I also remember, that I said it out loud that "I did not receive any email about this" and of course I was unable to solve that problem.
 
 I purchased an OpenWRT One router, which has a really good feature under Status > Realtime Graphs > Connections
 It shows the currently running source ip:port to destination ip:port traffic with the transferred bytes and packets. I have some images about the UI but I can make new screenshots of course. I noticed that one of the interfaces of the brand new router sends frequent udp packets towards many NTP servers.
