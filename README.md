@@ -43,6 +43,8 @@ sudo tcpdump -i wlp3s0 udp dst port 123 -vvv
 
 The weird dates seem more than suspicious to me although it seems that my computer is sending the bad timestamps first and it is always something completely different datetime.
 
+A lot more of these packets can be found in the tcpdump-output folder.
+
 Based on the available resources online I have the fear that I am one of the few who did not know about this phenomenon of NTP although it is basically common knowledge but still noone really talks about it.
 As of my current understanding this problem can be mitigated on your local area network by using a custom NTP server that gets its timesource from GPS or an atomic clock.
 
