@@ -1,0 +1,357 @@
+16:01:49.157658 IP (tos 0xb8, ttl 64, id 61500, offset 0, flags [DF], proto UDP (17), length 76)
+    ubuntu.lan.ntp > trabant.uid0.hu.ntp: [udp sum ok] NTPv4, Client, length 48
+	Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), precision 32
+	Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: (unspec)
+	  Reference Timestamp:  0.000000000
+	  Originator Timestamp: 0.000000000
+	  Receive Timestamp:    0.000000000
+	  Transmit Timestamp:   3309056491.444111614 (2004-11-10T06:21:31Z)
+	    Originator - Receive Timestamp:  0.000000000
+	    Originator - Transmit Timestamp: 3309056491.444111614 (2004-11-10T06:21:31Z)
+16:01:49.356070 IP (tos 0xb8, ttl 55, id 58625, offset 0, flags [DF], proto UDP (17), length 76)
+    trabant.uid0.hu.ntp > ubuntu.lan.ntp: [udp sum ok] NTPv4, Server, length 48
+	Leap indicator:  (0), Stratum 3 (secondary reference), poll 3 (8s), precision -23
+	Root Delay: 0.002166, Root dispersion: 0.043792, Reference-ID: 0x54022e13
+	  Reference Timestamp:  3952675861.971467019 (2025-04-03T13:31:01Z)
+	  Originator Timestamp: 3309056491.444111614 (2004-11-10T06:21:31Z)
+	  Receive Timestamp:    3952677709.190715203 (2025-04-03T14:01:49Z)
+	  Transmit Timestamp:   3952677709.190755046 (2025-04-03T14:01:49Z)
+	    Originator - Receive Timestamp:  +643621217.746603589
+	    Originator - Transmit Timestamp: +643621217.746643432
+16:02:02.157604 IP (tos 0xb8, ttl 64, id 14583, offset 0, flags [DF], proto UDP (17), length 76)
+    ubuntu.lan.ntp > ntp2.niif.hu.ntp: [udp sum ok] NTPv4, Client, length 48
+	Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), precision 32
+	Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: (unspec)
+	  Reference Timestamp:  0.000000000
+	  Originator Timestamp: 0.000000000
+	  Receive Timestamp:    0.000000000
+	  Transmit Timestamp:   3605658516.221698525 (2014-04-05T03:48:36Z)
+	    Originator - Receive Timestamp:  0.000000000
+	    Originator - Transmit Timestamp: 3605658516.221698525 (2014-04-05T03:48:36Z)
+16:02:02.258165 IP (tos 0xb8, ttl 57, id 5071, offset 0, flags [DF], proto UDP (17), length 76)
+    ntp2.niif.hu.ntp > ubuntu.lan.ntp: [udp sum ok] NTPv4, Server, length 48
+	Leap indicator:  (0), Stratum 2 (secondary reference), poll 3 (8s), precision -23
+	Root Delay: 0.003753, Root dispersion: 0.019699, Reference-ID: 0xc36f6b7a
+	  Reference Timestamp:  3952677657.208806094 (2025-04-03T14:00:57Z)
+	  Originator Timestamp: 3605658516.221698525 (2014-04-05T03:48:36Z)
+	  Receive Timestamp:    3952677722.092393002 (2025-04-03T14:02:02Z)
+	  Transmit Timestamp:   3952677722.092592817 (2025-04-03T14:02:02Z)
+	    Originator - Receive Timestamp:  +347019205.870694476
+	    Originator - Transmit Timestamp: +347019205.870894291
+16:02:32.157590 IP (tos 0xb8, ttl 64, id 49939, offset 0, flags [DF], proto UDP (17), length 76)
+    ubuntu.lan.ntp > mail.deployis.eu.ntp: [udp sum ok] NTPv4, Client, length 48
+	Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), precision 32
+	Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: (unspec)
+	  Reference Timestamp:  0.000000000
+	  Originator Timestamp: 0.000000000
+	  Receive Timestamp:    0.000000000
+	  Transmit Timestamp:   1076016731.613420338 (1934-02-05T21:32:11Z)
+	    Originator - Receive Timestamp:  0.000000000
+	    Originator - Transmit Timestamp: 1076016731.613420338 (1934-02-05T21:32:11Z)
+16:02:32.162738 IP (tos 0x0, ttl 55, id 49984, offset 0, flags [DF], proto UDP (17), length 76)
+    mail.deployis.eu.ntp > ubuntu.lan.ntp: [udp sum ok] NTPv4, Server, length 48
+	Leap indicator:  (0), Stratum 3 (secondary reference), poll 0 (1s), precision -6
+	Root Delay: 0.004013, Root dispersion: 0.000000, Reference-ID: 0xbd5cd218
+	  Reference Timestamp:  3952675898.741940021 (2025-04-03T13:31:38Z)
+	  Originator Timestamp: 1076016731.613420338 (1934-02-05T21:32:11Z)
+	  Receive Timestamp:    3952677751.996255874 (2025-04-03T14:02:31Z)
+	  Transmit Timestamp:   3952677751.996270179 (2025-04-03T14:02:31Z)
+	    Originator - Receive Timestamp:  +2876661020.382835535
+	    Originator - Transmit Timestamp: +2876661020.382849840
+16:04:22.157615 IP (tos 0xb8, ttl 64, id 7452, offset 0, flags [DF], proto UDP (17), length 76)
+    ubuntu.lan.ntp > bakacsin1.ki.iif.hu.ntp: [udp sum ok] NTPv4, Client, length 48
+	Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), precision 32
+	Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: (unspec)
+	  Reference Timestamp:  0.000000000
+	  Originator Timestamp: 0.000000000
+	  Receive Timestamp:    0.000000000
+	  Transmit Timestamp:   1937417717.306247784 (1961-05-24T19:35:17Z)
+	    Originator - Receive Timestamp:  0.000000000
+	    Originator - Transmit Timestamp: 1937417717.306247784 (1961-05-24T19:35:17Z)
+16:04:22.340042 IP (tos 0x0, ttl 57, id 23539, offset 0, flags [DF], proto UDP (17), length 76)
+    bakacsin1.ki.iif.hu.ntp > ubuntu.lan.ntp: [udp sum ok] NTPv4, Server, length 48
+	Leap indicator:  (0), Stratum 2 (secondary reference), poll 3 (8s), precision -23
+	Root Delay: 0.000350, Root dispersion: 0.021118, Reference-ID: 0x79837089
+	  Reference Timestamp:  3952677186.405507522 (2025-04-03T13:53:06Z)
+	  Originator Timestamp: 1937417717.306247784 (1961-05-24T19:35:17Z)
+	  Receive Timestamp:    3952677862.175632495 (2025-04-03T14:04:22Z)
+	  Transmit Timestamp:   3952677862.175769666 (2025-04-03T14:04:22Z)
+	    Originator - Receive Timestamp:  +2015260144.869384711
+	    Originator - Transmit Timestamp: +2015260144.869521882
+16:05:24.157606 IP6 (class 0xb8, flowlabel 0x4b339, hlim 64, next-header UDP (17) payload length: 56) 2a01-036d-0111-4a03-b60d-9a42-4df9-4f97.pool6.digikabel.hu.ntp > prod-ntp-3.ntp1.ps5.canonical.com.ntp: [udp sum ok] NTPv4, Client, length 48
+	Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), precision 32
+	Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: (unspec)
+	  Reference Timestamp:  0.000000000
+	  Originator Timestamp: 0.000000000
+	  Receive Timestamp:    0.000000000
+	  Transmit Timestamp:   1506081786.338110680 (1947-09-23T12:03:06Z)
+	    Originator - Receive Timestamp:  0.000000000
+	    Originator - Transmit Timestamp: 1506081786.338110680 (1947-09-23T12:03:06Z)
+16:07:53.157604 IP (tos 0xb8, ttl 64, id 49647, offset 0, flags [DF], proto UDP (17), length 76)
+    ubuntu.lan.ntp > katapult.uhulinux.hu.ntp: [udp sum ok] NTPv4, Client, length 48
+	Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), precision 32
+	Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: (unspec)
+	  Reference Timestamp:  0.000000000
+	  Originator Timestamp: 0.000000000
+	  Receive Timestamp:    0.000000000
+	  Transmit Timestamp:   3419618583.727870001 (2008-05-12T22:03:03Z)
+	    Originator - Receive Timestamp:  0.000000000
+	    Originator - Transmit Timestamp: 3419618583.727870001 (2008-05-12T22:03:03Z)
+16:07:53.280574 IP (tos 0xb8, ttl 52, id 0, offset 0, flags [DF], proto UDP (17), length 76)
+    katapult.uhulinux.hu.ntp > ubuntu.lan.ntp: [udp sum ok] NTPv4, Server, length 48
+	Leap indicator:  (0), Stratum 2 (secondary reference), poll 3 (8s), precision -21
+	Root Delay: 0.005676, Root dispersion: 0.046051, Reference-ID: 0x504d7d18
+	  Reference Timestamp:  3952676313.329192771 (2025-04-03T13:38:33Z)
+	  Originator Timestamp: 3419618583.727870001 (2008-05-12T22:03:03Z)
+	  Receive Timestamp:    3952678073.119372041 (2025-04-03T14:07:53Z)
+	  Transmit Timestamp:   3952678073.119424314 (2025-04-03T14:07:53Z)
+	    Originator - Receive Timestamp:  +533059489.391502039
+	    Originator - Transmit Timestamp: +533059489.391554313
+16:08:23.157572 IP (tos 0xb8, ttl 64, id 55052, offset 0, flags [DF], proto UDP (17), length 76)
+    ubuntu.lan.ntp > mailgateway.zsurob.hu.ntp: [udp sum ok] NTPv4, Client, length 48
+	Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), precision 32
+	Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: (unspec)
+	  Reference Timestamp:  0.000000000
+	  Originator Timestamp: 0.000000000
+	  Receive Timestamp:    0.000000000
+	  Transmit Timestamp:   3590179415.750465539 (2013-10-08T00:03:35Z)
+	    Originator - Receive Timestamp:  0.000000000
+	    Originator - Transmit Timestamp: 3590179415.750465539 (2013-10-08T00:03:35Z)
+16:08:23.188455 IP (tos 0xb8, ttl 58, id 2160, offset 0, flags [none], proto UDP (17), length 76)
+    mailgateway.zsurob.hu.ntp > ubuntu.lan.ntp: [udp sum ok] NTPv4, Server, length 48
+	Leap indicator:  (0), Stratum 3 (secondary reference), poll 3 (8s), precision -23
+	Root Delay: 0.008224, Root dispersion: 0.037673, Reference-ID: 0xc3b23af5
+	  Reference Timestamp:  3952677241.547008921 (2025-04-03T13:54:01Z)
+	  Originator Timestamp: 3590179415.750465539 (2013-10-08T00:03:35Z)
+	  Receive Timestamp:    3952678103.029686495 (2025-04-03T14:08:23Z)
+	  Transmit Timestamp:   3952678103.029724679 (2025-04-03T14:08:23Z)
+	    Originator - Receive Timestamp:  +362498687.279220955
+	    Originator - Transmit Timestamp: +362498687.279259139
+16:09:37.157638 IP (tos 0xb8, ttl 64, id 47707, offset 0, flags [DF], proto UDP (17), length 76)
+    ubuntu.lan.ntp > cebece.pomaz.hu.ntp: [udp sum ok] NTPv4, Client, length 48
+	Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), precision 32
+	Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: (unspec)
+	  Reference Timestamp:  0.000000000
+	  Originator Timestamp: 0.000000000
+	  Receive Timestamp:    0.000000000
+	  Transmit Timestamp:   2655060237.752031598 (1984-02-19T20:43:57Z)
+	    Originator - Receive Timestamp:  0.000000000
+	    Originator - Transmit Timestamp: 2655060237.752031598 (1984-02-19T20:43:57Z)
+16:09:37.317419 IP (tos 0xb8, ttl 57, id 43467, offset 0, flags [DF], proto UDP (17), length 76)
+    cebece.pomaz.hu.ntp > ubuntu.lan.ntp: [udp sum ok] NTPv4, Server, length 48
+	Leap indicator:  (0), Stratum 3 (secondary reference), poll 0 (1s), precision -23
+	Root Delay: 0.001846, Root dispersion: 0.023040, Reference-ID: 0x5100740d
+	  Reference Timestamp:  3952677781.693346217 (2025-04-03T14:03:01Z)
+	  Originator Timestamp: 2655060237.752031598 (1984-02-19T20:43:57Z)
+	  Receive Timestamp:    3952678177.157113384 (2025-04-03T14:09:37Z)
+	  Transmit Timestamp:   3952678177.157219255 (2025-04-03T14:09:37Z)
+	    Originator - Receive Timestamp:  +1297617939.405081786
+	    Originator - Transmit Timestamp: +1297617939.405187657
+16:18:21.157279 IP (tos 0xb8, ttl 64, id 45958, offset 0, flags [DF], proto UDP (17), length 76)
+    ubuntu.lan.ntp > rave.fidesz.hu.ntp: [udp sum ok] NTPv4, Client, length 48
+	Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), precision 32
+	Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: (unspec)
+	  Reference Timestamp:  0.000000000
+	  Originator Timestamp: 0.000000000
+	  Receive Timestamp:    0.000000000
+	  Transmit Timestamp:   2700239224.731816676 (1985-07-26T18:27:04Z)
+	    Originator - Receive Timestamp:  0.000000000
+	    Originator - Transmit Timestamp: 2700239224.731816676 (1985-07-26T18:27:04Z)
+16:18:21.161449 IP (tos 0xb8, ttl 53, id 53481, offset 0, flags [DF], proto UDP (17), length 76)
+    rave.fidesz.hu.ntp > ubuntu.lan.ntp: [udp sum ok] NTPv4, Server, length 48
+	Leap indicator:  (0), Stratum 3 (secondary reference), poll 3 (8s), precision -24
+	Root Delay: 0.025756, Root dispersion: 0.023818, Reference-ID: 0xc1e3c502
+	  Reference Timestamp:  3952678439.907201749 (2025-04-03T14:13:59Z)
+	  Originator Timestamp: 2700239224.731816676 (1985-07-26T18:27:04Z)
+	  Receive Timestamp:    3952678701.007258796 (2025-04-03T14:18:21Z)
+	  Transmit Timestamp:   3952678701.007278296 (2025-04-03T14:18:21Z)
+	    Originator - Receive Timestamp:  +1252439476.275442119
+	    Originator - Transmit Timestamp: +1252439476.275461619
+16:18:30.157289 IP (tos 0xb8, ttl 64, id 32480, offset 0, flags [DF], proto UDP (17), length 76)
+    ubuntu.lan.ntp > eternal.datacontact.hu.ntp: [udp sum ok] NTPv4, Client, length 48
+	Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), precision 32
+	Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: (unspec)
+	  Reference Timestamp:  0.000000000
+	  Originator Timestamp: 0.000000000
+	  Receive Timestamp:    0.000000000
+	  Transmit Timestamp:   2039292752.378242041 (1964-08-15T22:12:32Z)
+	    Originator - Receive Timestamp:  0.000000000
+	    Originator - Transmit Timestamp: 2039292752.378242041 (1964-08-15T22:12:32Z)
+16:18:30.200181 IP (tos 0xb8, ttl 52, id 26167, offset 0, flags [DF], proto UDP (17), length 76)
+    eternal.datacontact.hu.ntp > ubuntu.lan.ntp: [udp sum ok] NTPv4, Server, length 48
+	Leap indicator:  (0), Stratum 2 (secondary reference), poll 0 (1s), precision -24
+	Root Delay: 0.027359, Root dispersion: 0.040710, Reference-ID: 0x83bc03dd
+	  Reference Timestamp:  3952677076.944226824 (2025-04-03T13:51:16Z)
+	  Originator Timestamp: 2039292752.378242041 (1964-08-15T22:12:32Z)
+	  Receive Timestamp:    3952678710.049649452 (2025-04-03T14:18:30Z)
+	  Transmit Timestamp:   3952678710.049857186 (2025-04-03T14:18:30Z)
+	    Originator - Receive Timestamp:  +1913385957.671407411
+	    Originator - Transmit Timestamp: +1913385957.671615144
+16:18:55.157258 IP (tos 0xb8, ttl 64, id 23650, offset 0, flags [DF], proto UDP (17), length 76)
+    ubuntu.lan.ntp > trabant.uid0.hu.ntp: [udp sum ok] NTPv4, Client, length 48
+	Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), precision 32
+	Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: (unspec)
+	  Reference Timestamp:  0.000000000
+	  Originator Timestamp: 0.000000000
+	  Receive Timestamp:    0.000000000
+	  Transmit Timestamp:   3501584422.140355248 (2010-12-17T14:20:22Z)
+	    Originator - Receive Timestamp:  0.000000000
+	    Originator - Transmit Timestamp: 3501584422.140355248 (2010-12-17T14:20:22Z)
+16:18:55.162120 IP (tos 0xb8, ttl 55, id 65448, offset 0, flags [DF], proto UDP (17), length 76)
+    trabant.uid0.hu.ntp > ubuntu.lan.ntp: [udp sum ok] NTPv4, Server, length 48
+	Leap indicator:  (0), Stratum 3 (secondary reference), poll 3 (8s), precision -23
+	Root Delay: 0.002578, Root dispersion: 0.034133, Reference-ID: 0x54022c13
+	  Reference Timestamp:  3952677974.971786974 (2025-04-03T14:06:14Z)
+	  Originator Timestamp: 3501584422.140355248 (2010-12-17T14:20:22Z)
+	  Receive Timestamp:    3952678735.010134032 (2025-04-03T14:18:55Z)
+	  Transmit Timestamp:   3952678735.010158237 (2025-04-03T14:18:55Z)
+	    Originator - Receive Timestamp:  +451094312.869778784
+	    Originator - Transmit Timestamp: +451094312.869802989
+16:19:21.157355 IP (tos 0xb8, ttl 64, id 21887, offset 0, flags [DF], proto UDP (17), length 76)
+    ubuntu.lan.ntp > yikes.bl2.tolna.net.ntp: [udp sum ok] NTPv4, Client, length 48
+	Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), precision 32
+	Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: (unspec)
+	  Reference Timestamp:  0.000000000
+	  Originator Timestamp: 0.000000000
+	  Receive Timestamp:    0.000000000
+	  Transmit Timestamp:   3796328720.458856187 (2020-04-19T23:45:20Z)
+	    Originator - Receive Timestamp:  0.000000000
+	    Originator - Transmit Timestamp: 3796328720.458856187 (2020-04-19T23:45:20Z)
+16:19:21.199971 IP (tos 0x0, ttl 53, id 29176, offset 0, flags [DF], proto UDP (17), length 76)
+    yikes.bl2.tolna.net.ntp > ubuntu.lan.ntp: [udp sum ok] NTPv4, Server, length 48
+	Leap indicator:  (0), Stratum 2 (secondary reference), poll 0 (1s), precision -23
+	Root Delay: 0.019714, Root dispersion: 0.000137, Reference-ID: 0x7b131ee3
+	  Reference Timestamp:  3952678760.387020844 (2025-04-03T14:19:20Z)
+	  Originator Timestamp: 3796328720.458856187 (2020-04-19T23:45:20Z)
+	  Receive Timestamp:    3952678761.043196485 (2025-04-03T14:19:21Z)
+	  Transmit Timestamp:   3952678761.043262962 (2025-04-03T14:19:21Z)
+	    Originator - Receive Timestamp:  +156350040.584340297
+	    Originator - Transmit Timestamp: +156350040.584406774
+16:19:43.157322 IP (tos 0xb8, ttl 64, id 7908, offset 0, flags [DF], proto UDP (17), length 76)
+    ubuntu.lan.ntp > ntp2.niif.hu.ntp: [udp sum ok] NTPv4, Client, length 48
+	Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), precision 32
+	Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: (unspec)
+	  Reference Timestamp:  0.000000000
+	  Originator Timestamp: 0.000000000
+	  Receive Timestamp:    0.000000000
+	  Transmit Timestamp:   83746637.153526281 (1902-08-28T06:57:17Z)
+	    Originator - Receive Timestamp:  0.000000000
+	    Originator - Transmit Timestamp: 83746637.153526281 (1902-08-28T06:57:17Z)
+16:19:43.320606 IP (tos 0xb8, ttl 57, id 3973, offset 0, flags [DF], proto UDP (17), length 76)
+    ntp2.niif.hu.ntp > ubuntu.lan.ntp: [udp sum ok] NTPv4, Server, length 48
+	Leap indicator:  (0), Stratum 2 (secondary reference), poll 3 (8s), precision -23
+	Root Delay: 0.003707, Root dispersion: 0.015197, Reference-ID: 0xc36f6b7a
+	  Reference Timestamp:  3952678704.208558368 (2025-04-03T14:18:24Z)
+	  Originator Timestamp: 83746637.153526281 (1902-08-28T06:57:17Z)
+	  Receive Timestamp:    3952678783.167567947 (2025-04-03T14:19:43Z)
+	  Transmit Timestamp:   3952678783.167852538 (2025-04-03T14:19:43Z)
+	    Originator - Receive Timestamp:  +3868932146.014041666
+	    Originator - Transmit Timestamp: +3868932146.014326256
+16:19:59.157241 IP (tos 0xb8, ttl 64, id 58007, offset 0, flags [DF], proto UDP (17), length 76)
+    ubuntu.lan.ntp > mail.deployis.eu.ntp: [udp sum ok] NTPv4, Client, length 48
+	Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), precision 32
+	Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: (unspec)
+	  Reference Timestamp:  0.000000000
+	  Originator Timestamp: 0.000000000
+	  Receive Timestamp:    0.000000000
+	  Transmit Timestamp:   3348146960.587088635 (2006-02-05T16:49:20Z)
+	    Originator - Receive Timestamp:  0.000000000
+	    Originator - Transmit Timestamp: 3348146960.587088635 (2006-02-05T16:49:20Z)
+16:19:59.294480 IP (tos 0x0, ttl 55, id 23750, offset 0, flags [DF], proto UDP (17), length 76)
+    mail.deployis.eu.ntp > ubuntu.lan.ntp: [udp sum ok] NTPv4, Server, length 48
+	Leap indicator:  (0), Stratum 3 (secondary reference), poll 0 (1s), precision -6
+	Root Delay: 0.004013, Root dispersion: 0.000000, Reference-ID: 0xbd5cd218
+	  Reference Timestamp:  3952675898.741940021 (2025-04-03T13:31:38Z)
+	  Originator Timestamp: 3348146960.587088635 (2006-02-05T16:49:20Z)
+	  Receive Timestamp:    3952678799.138988971 (2025-04-03T14:19:59Z)
+	  Transmit Timestamp:   3952678799.139002799 (2025-04-03T14:19:59Z)
+	    Originator - Receive Timestamp:  +604531838.551900335
+	    Originator - Transmit Timestamp: +604531838.551914164
+16:21:56.157616 IP (tos 0xb8, ttl 64, id 11506, offset 0, flags [DF], proto UDP (17), length 76)
+    ubuntu.lan.ntp > bakacsin1.ki.iif.hu.ntp: [udp sum ok] NTPv4, Client, length 48
+	Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), precision 32
+	Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: (unspec)
+	  Reference Timestamp:  0.000000000
+	  Originator Timestamp: 0.000000000
+	  Receive Timestamp:    0.000000000
+	  Transmit Timestamp:   92293974.704989485 (1902-12-05T05:12:54Z)
+	    Originator - Receive Timestamp:  0.000000000
+	    Originator - Transmit Timestamp: 92293974.704989485 (1902-12-05T05:12:54Z)
+16:21:56.227732 IP (tos 0x0, ttl 57, id 9912, offset 0, flags [DF], proto UDP (17), length 76)
+    bakacsin1.ki.iif.hu.ntp > ubuntu.lan.ntp: [udp sum ok] NTPv4, Server, length 48
+	Leap indicator:  (0), Stratum 2 (secondary reference), poll 3 (8s), precision -23
+	Root Delay: 0.000350, Root dispersion: 0.036941, Reference-ID: 0x79837089
+	  Reference Timestamp:  3952677186.405507522 (2025-04-03T13:53:06Z)
+	  Originator Timestamp: 92293974.704989485 (1902-12-05T05:12:54Z)
+	  Receive Timestamp:    3952678916.073191721 (2025-04-03T14:21:56Z)
+	  Transmit Timestamp:   3952678916.073360878 (2025-04-03T14:21:56Z)
+	    Originator - Receive Timestamp:  +3860384941.368202235
+	    Originator - Transmit Timestamp: +3860384941.368371393
+16:22:59.157606 IP6 (class 0xb8, flowlabel 0x4b339, hlim 64, next-header UDP (17) payload length: 56) 2a01-036d-0111-4a03-b60d-9a42-4df9-4f97.pool6.digikabel.hu.ntp > prod-ntp-3.ntp1.ps5.canonical.com.ntp: [udp sum ok] NTPv4, Client, length 48
+	Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), precision 32
+	Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: (unspec)
+	  Reference Timestamp:  0.000000000
+	  Originator Timestamp: 0.000000000
+	  Receive Timestamp:    0.000000000
+	  Transmit Timestamp:   1822378221.666469282 (1957-10-01T08:10:21Z)
+	    Originator - Receive Timestamp:  0.000000000
+	    Originator - Transmit Timestamp: 1822378221.666469282 (1957-10-01T08:10:21Z)
+16:25:19.157597 IP (tos 0xb8, ttl 64, id 6899, offset 0, flags [DF], proto UDP (17), length 76)
+    ubuntu.lan.ntp > katapult.uhulinux.hu.ntp: [udp sum ok] NTPv4, Client, length 48
+	Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), precision 32
+	Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: (unspec)
+	  Reference Timestamp:  0.000000000
+	  Originator Timestamp: 0.000000000
+	  Receive Timestamp:    0.000000000
+	  Transmit Timestamp:   3927671935.467106405 (2024-06-18T03:58:55Z)
+	    Originator - Receive Timestamp:  0.000000000
+	    Originator - Transmit Timestamp: 3927671935.467106405 (2024-06-18T03:58:55Z)
+16:25:19.180396 IP (tos 0xb8, ttl 52, id 0, offset 0, flags [DF], proto UDP (17), length 76)
+    katapult.uhulinux.hu.ntp > ubuntu.lan.ntp: [udp sum ok] NTPv4, Server, length 48
+	Leap indicator:  (0), Stratum 2 (secondary reference), poll 3 (8s), precision -21
+	Root Delay: 0.005722, Root dispersion: 0.028884, Reference-ID: 0x504d7d18
+	  Reference Timestamp:  3952678416.329248214 (2025-04-03T14:13:36Z)
+	  Originator Timestamp: 3927671935.467106405 (2024-06-18T03:58:55Z)
+	  Receive Timestamp:    3952679119.030389196 (2025-04-03T14:25:19Z)
+	  Transmit Timestamp:   3952679119.030442596 (2025-04-03T14:25:19Z)
+	    Originator - Receive Timestamp:  +25007183.563282790
+	    Originator - Transmit Timestamp: +25007183.563336191
+16:25:51.157644 IP (tos 0xb8, ttl 64, id 29345, offset 0, flags [DF], proto UDP (17), length 76)
+    ubuntu.lan.ntp > mailgateway.zsurob.hu.ntp: [udp sum ok] NTPv4, Client, length 48
+	Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), precision 32
+	Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: (unspec)
+	  Reference Timestamp:  0.000000000
+	  Originator Timestamp: 0.000000000
+	  Receive Timestamp:    0.000000000
+	  Transmit Timestamp:   1391785501.598927814 (1944-02-08T15:05:01Z)
+	    Originator - Receive Timestamp:  0.000000000
+	    Originator - Transmit Timestamp: 1391785501.598927814 (1944-02-08T15:05:01Z)
+16:25:51.337046 IP (tos 0xb8, ttl 58, id 44651, offset 0, flags [none], proto UDP (17), length 76)
+    mailgateway.zsurob.hu.ntp > ubuntu.lan.ntp: [udp sum ok] NTPv4, Server, length 48
+	Leap indicator:  (0), Stratum 3 (secondary reference), poll 3 (8s), precision -23
+	Root Delay: 0.008316, Root dispersion: 0.028961, Reference-ID: 0xc3b23af5
+	  Reference Timestamp:  3952678834.547375474 (2025-04-03T14:20:34Z)
+	  Originator Timestamp: 1391785501.598927814 (1944-02-08T15:05:01Z)
+	  Receive Timestamp:    3952679151.187553424 (2025-04-03T14:25:51Z)
+	  Transmit Timestamp:   3952679151.187581176 (2025-04-03T14:25:51Z)
+	    Originator - Receive Timestamp:  +2560893649.588625610
+	    Originator - Transmit Timestamp: +2560893649.588653362
+16:26:58.157596 IP (tos 0xb8, ttl 64, id 3201, offset 0, flags [DF], proto UDP (17), length 76)
+    ubuntu.lan.ntp > cebece.pomaz.hu.ntp: [udp sum ok] NTPv4, Client, length 48
+	Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), precision 32
+	Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: (unspec)
+	  Reference Timestamp:  0.000000000
+	  Originator Timestamp: 0.000000000
+	  Receive Timestamp:    0.000000000
+	  Transmit Timestamp:   1571809093.359309658 (1949-10-23T05:38:13Z)
+	    Originator - Receive Timestamp:  0.000000000
+	    Originator - Transmit Timestamp: 1571809093.359309658 (1949-10-23T05:38:13Z)
+16:26:58.302488 IP (tos 0xb8, ttl 57, id 20995, offset 0, flags [DF], proto UDP (17), length 76)
+    cebece.pomaz.hu.ntp > ubuntu.lan.ntp: [udp sum ok] NTPv4, Server, length 48
+	Leap indicator:  (0), Stratum 3 (secondary reference), poll 0 (1s), precision -23
+	Root Delay: 0.025817, Root dispersion: 0.028045, Reference-ID: 0xc1e3c502
+	  Reference Timestamp:  3952678421.698401387 (2025-04-03T14:13:41Z)
+	  Originator Timestamp: 1571809093.359309658 (1949-10-23T05:38:13Z)
+	  Receive Timestamp:    3952679218.152934179 (2025-04-03T14:26:58Z)
+	  Transmit Timestamp:   3952679218.153037431 (2025-04-03T14:26:58Z)
+	    Originator - Receive Ti

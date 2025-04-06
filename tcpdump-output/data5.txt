@@ -1,0 +1,60 @@
+08:28:51.458219 IP (tos 0xb8, ttl 64, id 23065, offset 0, flags [DF], proto UDP (17), length 76)
+    ubuntu.lan.ntp > etharin.fidesz.hu.ntp: [udp sum ok] NTPv4, Client, length 48
+	Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), precision 32
+	Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: (unspec)
+	  Reference Timestamp:  0.000000000
+	  Originator Timestamp: 0.000000000
+	  Receive Timestamp:    0.000000000
+	  Transmit Timestamp:   2136250091.301327656 (1967-09-12T02:48:11Z)
+	    Originator - Receive Timestamp:  0.000000000
+	    Originator - Transmit Timestamp: 2136250091.301327656 (1967-09-12T02:48:11Z)
+08:28:51.505155 IP (tos 0xb8, ttl 53, id 539, offset 0, flags [DF], proto UDP (17), length 76)
+    etharin.fidesz.hu.ntp > ubuntu.lan.ntp: [udp sum ok] NTPv4, Server, length 48
+	Leap indicator:  (0), Stratum 3 (secondary reference), poll 3 (8s), precision -23
+	Root Delay: 0.025955, Root dispersion: 0.031387, Reference-ID: 0xc1e3c502
+	  Reference Timestamp:  3952735932.000754170 (2025-04-04T06:12:12Z)
+	  Originator Timestamp: 2136250091.301327656 (1967-09-12T02:48:11Z)
+	  Receive Timestamp:    3952736931.488435027 (2025-04-04T06:28:51Z)
+	  Transmit Timestamp:   3952736931.488549140 (2025-04-04T06:28:51Z)
+	    Originator - Receive Timestamp:  +1816486840.187107371
+	    Originator - Transmit Timestamp: +1816486840.187221484
+08:28:54.458458 IP (tos 0xb8, ttl 64, id 30341, offset 0, flags [DF], proto UDP (17), length 76)
+    ubuntu.lan.ntp > mailgateway.zsurob.hu.ntp: [udp sum ok] NTPv4, Client, length 48
+	Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), precision 32
+	Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: (unspec)
+	  Reference Timestamp:  0.000000000
+	  Originator Timestamp: 0.000000000
+	  Receive Timestamp:    0.000000000
+	  Transmit Timestamp:   2469822910.036927643 (1978-04-07T21:55:10Z)
+	    Originator - Receive Timestamp:  0.000000000
+	    Originator - Transmit Timestamp: 2469822910.036927643 (1978-04-07T21:55:10Z)
+08:28:54.578766 IP (tos 0xb8, ttl 58, id 32253, offset 0, flags [none], proto UDP (17), length 76)
+    mailgateway.zsurob.hu.ntp > ubuntu.lan.ntp: [udp sum ok] NTPv4, Server, length 48
+	Leap indicator:  (0), Stratum 3 (secondary reference), poll 3 (8s), precision -23
+	Root Delay: 0.009017, Root dispersion: 0.033142, Reference-ID: 0xc3b23af5
+	  Reference Timestamp:  3952736295.547728425 (2025-04-04T06:18:15Z)
+	  Originator Timestamp: 2469822910.036927643 (1978-04-07T21:55:10Z)
+	  Receive Timestamp:    3952736934.565379802 (2025-04-04T06:28:54Z)
+	  Transmit Timestamp:   3952736934.565411860 (2025-04-04T06:28:54Z)
+	    Originator - Receive Timestamp:  +1482914024.528452158
+	    Originator - Transmit Timestamp: +1482914024.528484216
+08:28:59.458514 IP (tos 0xb8, ttl 64, id 49256, offset 0, flags [DF], proto UDP (17), length 76)
+    ubuntu.lan.ntp > zearla.netinform.hu.ntp: [udp sum ok] NTPv4, Client, length 48
+	Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), precision 32
+	Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: (unspec)
+	  Reference Timestamp:  0.000000000
+	  Originator Timestamp: 0.000000000
+	  Receive Timestamp:    0.000000000
+	  Transmit Timestamp:   2961481422.397728427 (1993-11-05T09:43:42Z)
+	    Originator - Receive Timestamp:  0.000000000
+	    Originator - Transmit Timestamp: 2961481422.397728427 (1993-11-05T09:43:42Z)
+08:28:59.491847 IP (tos 0xb8, ttl 57, id 41086, offset 0, flags [DF], proto UDP (17), length 76)
+    zearla.netinform.hu.ntp > ubuntu.lan.ntp: [udp sum ok] NTPv4, Server, length 48
+	Leap indicator:  (0), Stratum 3 (secondary reference), poll 0 (1s), precision -22
+	Root Delay: 0.025802, Root dispersion: 0.021194, Reference-ID: 0xc1e3c502
+	  Reference Timestamp:  3952736586.402099984 (2025-04-04T06:23:06Z)
+	  Originator Timestamp: 2961481422.397728427 (1993-11-05T09:43:42Z)
+	  Receive Timestamp:    3952736939.475250269 (2025-04-04T06:28:59Z)
+	  Transmit Timestamp:   3952736939.475342244 (2025-04-04T06:28:59Z)
+	    Originator - Receive Timestamp:  +991255517.077521841
+	    Originator - Transmit Times
