@@ -64,8 +64,7 @@ Boston University, Boston, MA.
 
 I do not understand this paper completely but others might be able to prove or disprove what happens on my network is related to this.
 
-If I understand this right and it really is an attack then I am under attacked by the servers of political parties, institutions and companies like FIDESZ, Telekom, NIIF and and a company that can be connected to a hacker group at BME and all of my network traffic could be compromised. I might not be the only one who suffers from this.
-
+If I understand this right and it really is an attack then I am under attacked by the servers of political parties, institutions and companies like FIDESZ, Telekom, NIIF and and a company that can be connected to a hacker group at BME and all of my network traffic could be compromised. 
 I made a list of some the resolved addresses my computer is talking to:
 
 - rave.fidesz.hu.ntp
@@ -122,5 +121,4 @@ ghj@ubuntu ~> ntpq -p
 ## Help is needed!
 
 I would like to ask the IT community of the world to help me find out what this is exactly and what I should do.
-
-> Also, I am willing to go to court with this and go through everything that the community needs. I might have done questionable things in my life but I am willing to face what I have to. What we can do together might be much more than what I might loose and I might get a chance for fair treatment finally in my life.
+This issue should have legal consequences, since I was not accused of anything in spite of being under attack and I might not be the only one who suffers from this.
