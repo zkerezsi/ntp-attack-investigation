@@ -120,5 +120,6 @@ ghj@ubuntu ~> ntpq -p
 
 ## Help is needed!
 
-I would like to ask the IT community of the world to help me find out what this is exactly and what I should do.
+I would like to ask the IT community of the world to help me find out what this is exactly and what I should do. I think I was under a form of mental influence in the past one or two years and I feel like I have issues with concentration.
+
 This issue should have legal consequences, since I was not accused of anything in spite of being under attack and I might not be the only one who suffers from this.
