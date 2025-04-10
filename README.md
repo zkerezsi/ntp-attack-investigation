@@ -62,11 +62,7 @@ Boston University, Boston, MA.
 
 > Abstract — We explore the risk that network attackers can exploit unauthenticated Network Time Protocol (NTP) traffic to alter the time on client systems. We first discuss how an onpath attacker, that hijacks traffic to an NTP server, can quickly shift time on the server’s clients. Then, we present a extremely low-rate (single packet) denial-of-service attack that an off-path attacker, located anywhere on the network, can use to disable NTP clock synchronization on a client. Next, we show how an off-path attacker can exploit IPv4 packet fragmentation to dramatically shift time on a client. We discuss the implications on these attacks on other core Internet protocols, quantify their attack surface using Internet measurements, and suggest a few simple countermeasures that can improve the security of NTP.
 
-I do not understand this paper completely but others might be able to prove or disprove what happens on my network is related to this.
-
-If I understand this right and it really is an attack then I am under attacked by the servers of political parties, institutions and companies like FIDESZ, Telekom, NIIF and and a company that can be connected to a hacker group at BME and all of my network traffic could be compromised. I might not be the only one who suffers from this.
-
-I made a list of some the resolved addresses my computer is talking to:
+I think this is a cyber attack by the servers of political parties, institutions and companies like FIDESZ, Telekom, NIIF and and a company that can be connected to a hacker group at BME (Crysys) and all of my network traffic could be compromised. I made a list of some the resolved addresses my computer is talking to:
 
 - rave.fidesz.hu.ntp
 - bakacsin1.ki.iif.hu.ntp
@@ -121,6 +117,6 @@ ghj@ubuntu ~> ntpq -p
 
 ## Help is needed!
 
-I would like to ask the IT community of the world to help me find out what this is exactly and what I should do.
+I would like to ask the IT community of the world to help me find out what this is exactly and what I should do. I think I was under a form of mental influence in the past one or two years and I feel like I have issues with concentration.
 
-> Also, I am willing to go to court with this and go through everything that the community needs. I might have done questionable things in my life but I am willing to face what I have to. What we can do together might be much more than what I might loose and I might get a chance for fair treatment finally in my life.
+This issue should have legal consequences, since I was not accused of anything in spite of being under attack and I might not be the only one who suffers from this.
