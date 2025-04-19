@@ -9,6 +9,15 @@
 #define NTP_PORT 123
 #define NTP_PACKET_SIZE 48
 
+void print_binary(uint32_t num) {
+    printf("Binary: ");
+    for (int i = 31; i >= 0; i--) {
+        printf("%d", (num >> i) & 1);
+    }
+
+    printf("\n");
+}
+
 typedef struct {
     uint8_t li_vn_mode;
     uint8_t stratum;
@@ -57,10 +66,17 @@ void print_ntp_time() {
     }
 
     close(sockfd);
+
+    print_binary(packet.txTimeStamp[0]);
+    printf("Decimal: %u\n", packet.txTimeStamp[0]);
+    print_binary(packet.txTimeStamp[1]);
+    printf("Decimal: %u\n", packet.txTimeStamp[1]);
+
     // https://www.ntp.org/reflib/y2k/
     tx_time = ntohl(packet.txTimeStamp[0]) - 2208988800U;
     printf("NTP Time: %s", ctime((const time_t*)&tx_time));
 }
+
 
 int main() {
     print_ntp_time();
