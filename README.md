@@ -273,6 +273,8 @@ GUDxx9y4o83a1keLVYLOQSo=
 These two file have a very suspicious names. According to wikipedia, snakeoil is a type of fake product advertised as a cure for all illnesses.
 The /etc/ssl/private/ folder on my machine contains only a single private key: ssl-cert-snakeoil.key.
 
+The certificate files stored on my machine in /usr/share/ca-certificates/mozilla are dated to Feb 4 2024 which is one year older than I would expect. I provided these files in the certs folder.
+
 ## Help is needed!
 
 I would like to ask the IT community of the world to help me find out what this is exactly and what I should do, since my not have enough knowledge to solve it alone.

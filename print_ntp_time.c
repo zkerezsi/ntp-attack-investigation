@@ -5,7 +5,7 @@
 #include <arpa/inet.h>
 #include <time.h>
 
-#define NTP_SERVER "92.249.148.253"
+#define NTP_SERVER "188.156.114.7"
 #define NTP_PORT 123
 #define NTP_PACKET_SIZE 48
 
@@ -30,6 +30,8 @@ typedef struct {
     uint32_t origTimeStamp[2];
     uint32_t recvTimeStamp[2];
     uint32_t txTimeStamp[2];
+    // uint32_t ext_field_1;
+    uint32_t digest[4];
 } ntp_packet;
 
 void print_ntp_time() {
@@ -75,6 +77,9 @@ void print_ntp_time() {
     // https://www.ntp.org/reflib/y2k/
     tx_time = ntohl(packet.txTimeStamp[0]) - 2208988800U;
     printf("NTP Time: %s", ctime((const time_t*)&tx_time));
+
+    printf("%u\n", ntohl(packet.refId));
+    printf("%u\n", packet.stratum);
 }
 
 
