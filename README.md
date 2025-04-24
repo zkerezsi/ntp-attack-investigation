@@ -1,5 +1,14 @@
 # NTP attack investigation
 
+<table>
+  <tr>
+    <td><img src="images/Bird.png" alt="Bird" width="100" height="100"></td>
+    <td><img src="images/Orange.png" alt="Orange" width="100" height="100"></td>
+    <td><img src="images/Satan.png" alt="Satan" width="100" height="100"></td>
+    <td><img src="images/Bear.png" alt="Bear" width="100" height="100"></td>
+  </tr>
+</table>
+
 I think I discovered some kind of design flaw in the way Network Time Protocol is working which is currently actively expoited on my computer and it might enable third parties to read all TLS encrypted traffic that my computer is sending so I created this public repository to document these phenomena.
 
 I think I am good at remembering specific things, and I remember that on one of the classes where we solved practical tasks the guy who teached us told at some point, that the next task which was about setting up NTP on a linux machine should be solved in a way they described it in __the email__.
