@@ -1,12 +1,8 @@
 # NTP attack investigation
 
-> Sir Mérész Dánielus Lepus Curator Septem Jahodus Choteborus Localus Areaus Networkus Routerus Sideeffectus Majordomus Americano Magister Maximus - https://sssl.sch.bme.hu/
+I found a humorous latin-like qoute on one of the sites of the university where I studied, and I think it might have some connection with the issue I am trying to describe here with more or less success:
 
-<table>
-  <tr>
-    <td><img src="images/Bird.png" alt="Bird" width="100" height="100"></td>
-  </tr>
-</table>
+> Sir Mérész Dánielus Lepus Curator Septem Jahodus Choteborus Localus Areaus Networkus Routerus Sideeffectus Majordomus Americano Magister Maximus - https://sssl.sch.bme.hu/
 
 I think I discovered some kind of design flaw in the way Network Time Protocol is working which is currently actively expoited on my computer and it might enable third parties to read all TLS encrypted traffic that my computer is sending so I created this public repository to document these phenomena.
 
@@ -282,6 +278,10 @@ These two file have a very suspicious names. According to wikipedia, snakeoil is
 The /etc/ssl/private/ folder on my machine contains only a single private key: ssl-cert-snakeoil.key.
 
 The certificate files stored on my machine in /usr/share/ca-certificates/mozilla are dated to Feb 4 2024 which is one year older than I would expect. I provided these files in the certs folder.
+
+## Potential solutions
+
+WIP
 
 ## Help is needed!
 
