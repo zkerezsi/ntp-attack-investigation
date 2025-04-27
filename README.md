@@ -5,9 +5,6 @@
 <table>
   <tr>
     <td><img src="images/Bird.png" alt="Bird" width="100" height="100"></td>
-    <td><img src="images/Orange.png" alt="Orange" width="100" height="100"></td>
-    <td><img src="images/Satan.png" alt="Satan" width="100" height="100"></td>
-    <td><img src="images/Bear.png" alt="Bear" width="100" height="100"></td>
   </tr>
 </table>
 
